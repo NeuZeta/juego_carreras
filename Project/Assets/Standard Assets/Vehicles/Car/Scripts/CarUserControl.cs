@@ -9,13 +9,11 @@ namespace UnityStandardAssets.Vehicles.Car
     {
         private CarController m_Car; // the car controller we want to use
 
-
         private void Awake()
         {
             // get the car controller
             m_Car = GetComponent<CarController>();
         }
-
 
         private void FixedUpdate()
         {
